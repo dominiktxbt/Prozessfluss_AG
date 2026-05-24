@@ -4,353 +4,221 @@
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        
-        <!-- START -->
-        <mxCell id="start" value="START: Kunde interessiert sich für Tesla" style="ellipse;whiteSpace=wrap;html=1;fillColor=#90EE90;strokeWidth=3;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="start" value="START" style="ellipse;whiteSpace=wrap;html=1;fillColor=#90EE90;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="350" y="20" width="470" height="60" as="geometry"/>
         </mxCell>
-        
-        <!-- PHASE 1 HEADER -->
-        <mxCell id="ph1" value="PHASE 1: RECHERCHE &amp; VORBEREITUNG (1-8)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4A90E2;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="start" target="ph1"/>
+        <mxCell id="ph1" value="PHASE 1: RECHERCHE (1-8)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4A90E2;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="100" width="470" height="35" as="geometry"/>
         </mxCell>
-        
-        <mxCell id="s1" value="1. Informationen sammeln" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph1" target="s1"/>
+        <mxCell id="s1" value="1. Informationen sammeln" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="145" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s2" value="2. Modellvergleich (Model 3, Y, S, X)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s1" target="s2"/>
+        <mxCell id="s2" value="2. Modellvergleich" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="195" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s3" value="3. Konfigurationsoptionen prüfen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s2" target="s3"/>
+        <mxCell id="s3" value="3. Konfigurationsoptionen prüfen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="245" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s4" value="4. Preiskalkulation durchführen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s3" target="s4"/>
+        <mxCell id="s4" value="4. Preiskalkulation" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="295" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s5" value="5. Fördermöglichkeiten recherchieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s4" target="s5"/>
+        <mxCell id="s5" value="5. Fördermöglichkeiten recherchieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="345" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s6" value="6. Finanzierungsoptionen erkunden" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s5" target="s6"/>
+        <mxCell id="s6" value="6. Finanzierungsoptionen erkunden" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="395" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s7" value="7. Testfahrt buchen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s6" target="s7"/>
+        <mxCell id="s7" value="7. Testfahrt buchen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="445" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s8" value="8. Kundenbewertungen und Erfahrungsberichte lesen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s7" target="s8"/>
+        <mxCell id="s8" value="8. Kundenbewertungen lesen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="495" width="470" height="40" as="geometry"/>
         </mxCell>
-        
-        <!-- PHASE 2 HEADER -->
-        <mxCell id="ph2" value="PHASE 2: TESTFAHRT &amp; BERATUNG (9-14)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E67E22;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s8" target="ph2"/>
+        <mxCell id="ph2" value="PHASE 2: TESTFAHRT (9-14)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E67E22;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="545" width="470" height="35" as="geometry"/>
         </mxCell>
-        
-        <mxCell id="s9" value="9. Zum Tesla Service Center fahren" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph2" target="s9"/>
+        <mxCell id="s9" value="9. Zum Service Center fahren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="590" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s10" value="10. Begrüßung durch Sales-Berater" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s9" target="s10"/>
+        <mxCell id="s10" value="10. Begrüßung Sales-Berater" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="640" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s11" value="11. Kundenpräferenzen und Anforderungen erfassen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s10" target="s11"/>
+        <mxCell id="s11" value="11. Kundenpräferenzen erfassen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="690" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s12" value="12. Fahrzeugpräsentation (Features, Technologie, Autopilot)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s11" target="s12"/>
+        <mxCell id="s12" value="12. Fahrzeugpräsentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="740" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s13" value="13. Testfahrt durchführen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s12" target="s13"/>
+        <mxCell id="s13" value="13. Testfahrt durchführen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="790" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s14" value="14. Offene Fragen beantworten und Bedenken klären" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s13" target="s14"/>
+        <mxCell id="s14" value="14. Fragen beantworten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="840" width="470" height="40" as="geometry"/>
         </mxCell>
-        
-        <!-- PHASE 3 HEADER -->
-        <mxCell id="ph3" value="PHASE 3: KAUFENTSCHEIDUNG &amp; KONFIGURATION (15-22)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27AE60;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s14" target="ph3"/>
+        <mxCell id="ph3" value="PHASE 3: KONFIGURATION (15-22)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#27AE60;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="890" width="470" height="35" as="geometry"/>
         </mxCell>
-        
-        <mxCell id="s15" value="15. Kaufentscheidung treffen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph3" target="s15"/>
+        <mxCell id="s15" value="15. Kaufentscheidung treffen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="935" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s16" value="16. Modell und Variante wählen (Model 3/Y/S/X)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s15" target="s16"/>
+        <mxCell id="s16" value="16. Modell wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="985" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s17" value="17. Farbe konfigurieren (Weiß, Schwarz, Rot, Grau, Blau)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s16" target="s17"/>
+        <mxCell id="s17" value="17. Farbe konfigurieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="1035" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s18" value="18. Batterie/Reichweite wählen (Standard/Long Range)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s17" target="s18"/>
+        <mxCell id="s18" value="18. Batterie/Reichweite wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="1085" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s19" value="19. Ausstattungsoptionen auswählen (Premium-Audio, Panorama-Dach)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s18" target="s19"/>
+        <mxCell id="s19" value="19. Ausstattungsoptionen auswählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="1135" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s20" value="20. Felgen und Reifen konfigurieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1185" width="470" height="40" as="geometry"/>
+        <mxCell id="a22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s19" target="s20"/>
+        <mxCell id="s20" value="20. Felgen/Reifen konfigurieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1185"width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s21" value="21. Innenausstattung wählen (Polsterung, Materialien)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s20" target="s21"/>
+        <mxCell id="s21" value="21. Innenausstattung wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="1235" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s22" value="22. Gesamtkonfiguration überprüfen und bestätigen" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s21" target="s22"/>
+        <mxCell id="s22" value="22. Gesamtkonfiguration überprüfen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;" vertex="1" parent="1">
           <mxGeometry x="350" y="1285" width="470" height="40" as="geometry"/>
         </mxCell>
-        
-        <!-- PHASE 4 HEADER -->
-        <mxCell id="ph4" value="PHASE 4: FINANZIERUNG &amp; VERTRAGSABSCHLUSS (23-29)" style="rounded=1;whiteSpace:wrap;html=1;fillColor:#8E44AD;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s22" target="ph4"/>
+        <mxCell id="ph4" value="PHASE 4: FINANZIERUNG (23-29)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#8E44AD;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1335" width="470" height="35" as="geometry"/>
         </mxCell>
-        
-        <mxCell id="s23" value="23. Finanzierungsmodell wählen (Kauf/Leasing/Finanzierung)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph4" target="s23"/>
+        <mxCell id="s23" value="23. Finanzierungsmodell wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1380" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s24" value="24. Kreditangebot einholen (Bank oder Tesla-Finanzierung)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s23" target="s24"/>
+        <mxCell id="s24" value="24. Kreditangebot einholen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1430" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s25" value="25. Finanzierungsvertrag mit Bank/Partner unterschreiben" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s24" target="s25"/>
+        <mxCell id="s25" value="25. Finanzierungsvertrag unterschreiben" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1480" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s26" value="26. Kaufvertrag vorbereiten (mit allen Details)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s25" target="s26"/>
+        <mxCell id="s26" value="26. Kaufvertrag vorbereiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1530" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s27" value="27. Kaufvertrag durchlesen und prüfen" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s26" target="s27"/>
+        <mxCell id="s27" value="27. Kaufvertrag durchlesen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1580" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s28" value="28. Kaufvertrag unterschreiben (Kunde und Tesla)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s27" target="s28"/>
+        <mxCell id="s28" value="28. Kaufvertrag unterschreiben" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1630" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s29" value="29. Anzahlung/Kaution leisten (10-20% des Kaufpreises)" style="rounded=0;whiteSpace:wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s28" target="s29"/>
+        <mxCell id="s29" value="29. Anzahlung leisten (10-20%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1680" width="470" height="40" as="geometry"/>
         </mxCell>
-        
-        <!-- PHASE 5 HEADER -->
-        <mxCell id="ph5" value="PHASE 5: PRODUKTION &# **Tesla Kaufprozess - Draw.io Datei (Download)**
-
-Speichere diesen Code als **`Tesla_Kaufprozess.drawio`**:
-
-```xml
-<mxfile host="app.diagrams.net" modified="2026-05-24T16:32:00.000Z" agent="5.0" version="20.3.0" type="device">
-  <diagram name="Tesla Kaufprozess" id="tesla_process">
-    <mxGraphModel dx="1400" dy="3200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="3200" background="ffffff" math="0" shadow="0">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="start" value="START: Kunde interessiert sich für Tesla" style="ellipse;whiteSpace=wrap;html=1;fillColor=#90EE90;strokeWidth=3;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="20" width="470" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="ph1" value="PHASE 1: RECHERCHE (1-8)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4A90E2;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="100" width="470" height="35" as="geometry"/>
-        </mxCell>
-        <mxCell id="s1" value="1. Informationen sammeln" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="145" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s2" value="2. Modellvergleich" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="195" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s3" value="3. Konfigurationsoptionen prüfen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="245" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s4" value="4. Preiskalkulation" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="295" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s5" value="5. Fördermöglichkeiten recherchieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="345" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s6" value="6. Finanzierungsoptionen erkunden" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="395" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s7" value="7. Testfahrt buchen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="445" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s8" value="8. Kundenbewertungen lesen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D4E6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="495" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ph2" value="PHASE 2: TESTFAHRT (9-14)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E67E22;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="545" width="470" height="35" as="geometry"/>
-        </mxCell>
-        <mxCell id="s9" value="9. Zum Service Center fahren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="590" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s10" value="10. Begrüßung Sales-Berater" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="640" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s11" value="11. Kundenpräferenzen erfassen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="690" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s12" value="12. Fahrzeugpräsentation" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="740" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s13" value="13. Testfahrt durchführen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="790" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s14" value="14. Fragen beantworten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="840" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ph3" value="PHASE 3: KONFIGURATION (15-22)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#27AE60;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="890" width="470" height="35" as="geometry"/>
-        </mxCell>
-        <mxCell id="s15" value="15. Kaufentscheidung treffen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="935" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s16" value="16. Modell wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="985" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s17" value="17. Farbe konfigurieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1035" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s18" value="18. Batterie/Reichweite wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1085" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s19" value="19. Ausstattungsoptionen auswählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1135" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s20" value="20. Felgen/Reifen konfigurieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1185" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s21" value="21. Innenausstattung wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1235" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s22" value="22. Gesamtkonfiguration überprüfen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#ABEBC6;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1285" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ph4" value="PHASE 4: FINANZIERUNG (23-29)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#8E44AD;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1335" width="470" height="35" as="geometry"/>
-        </mxCell>
-        <mxCell id="s23" value="23. Finanzierungsmodell wählen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1380" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s24" value="24. Kreditangebot einholen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1430" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s25" value="25. Finanzierungsvertrag unterschreiben" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1480" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s26" value="26. Kaufvertrag vorbereiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1530" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s27" value="27. Kaufvertrag durchlesen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1580" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s28" value="28. Kaufvertrag unterschreiben" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1630" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="s29" value="29. Anzahlung leisten (10-20%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#D7BDE2;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1680" width="470" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="ph5" value="PHASE 5: PRODUKTION (30-37)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C0392B;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s29" target="ph5"/>
+        <mxCell id="ph5" value="PHASE 5: PRODUKTION (30-37)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#C0392B;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1730" width="470" height="35" as="geometry"/>
         </mxCell>
-        <mxCell id="s30" value="30. Bestellung im System registrieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph5" target="s30"/>
+        <mxCell id="s30" value="30. Bestellung im System registrieren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1775" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s31" value="31. Produktionsauftrag erstellen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s30" target="s31"/>
+        <mxCell id="s31" value="31. Produktionsauftrag erstellen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1825" width="470" height="40" as="geometry"/>
         </mxCell>
-        ```xml
-        <mxCell id="s32" value="32. Fahrzeug in Produktion (2-6 Wochen)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s31" target="s32"/>
+        <mxCell id="s32" value="32. Fahrzeug in Produktion (2-6 Wochen)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1875" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s33" value="33. Qualitätskontrolle" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s32" target="s33"/>
+        <mxCell id="s33" value="33. Qualitätskontrolle" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1925" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s34" value="34. Fahrzeug lagern" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s33" target="s34"/>
+        <mxCell id="s34" value="34. Fahrzeug lagern" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1975" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s35" value="35. Logistikplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s34" target="s35"/>
+        <mxCell id="s35" value="35. Logistikplanung" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2025" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s36" value="36. Fahrzeug verladen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s35" target="s36"/>
+        <mxCell id="s36" value="36. Fahrzeug verladen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2075" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s37" value="37. Transport zum Service Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s36" target="s37"/>
+        <mxCell id="s37" value="37. Transport zum Service Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#F5B7B1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2125" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ph6" value="PHASE 6: VORBEREITUNG (38-42)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#16A085;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s37" target="ph6"/>
+        <mxCell id="ph6" value="PHASE 6: VORBEREITUNG (38-42)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#16A085;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="2175" width="470" height="35" as="geometry"/>
         </mxCell>
-        <mxCell id="s38" value="38. Fahrzeug im Service Center ankommen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph6" target="s38"/>
+        <mxCell id="s38" value="38. Fahrzeug im Service Center ankommen" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;" vertex="1" parent="1">
           <mxGeometry x="350" y="2220" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s39" value="39. Ankunftsbestätigung senden" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s38" target="s39"/>
+        <mxCell id="s39" value="39. Ankunftsbestätigung senden" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;" vertex="1" parent="1">
           <mxGeometry x="350" y="2270" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s40" value="40. Auslieferungstermin vereinbaren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s39" target="s40"/>
+        <mxCell id="s40" value="40. Auslieferungstermin vereinbaren" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;" vertex="1" parent="1">
           <mxGeometry x="350" y="2320" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s41" value="41. Fahrzeug vorbereiten (Reinigung, Checks)" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s40" target="s41"/>
+        <mxCell id="s41" value="41. Fahrzeug vorbereiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;" vertex="1" parent="1">
           <mxGeometry x="350" y="2370" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s42" value="42. Dokumentation vorbereiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s41" target="s42"/>
+        <mxCell id="s42" value="42.Dokumentation vorbereiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#A9DFBF;" vertex="1" parent="1">
           <mxGeometry x="350" y="2420" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ph7" value="PHASE 7: AUSLIEFERUNG (43-45)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#2980B9;fontColor=white;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s42" target="ph7"/>
+        <mxCell id="ph7" value="PHASE 7: AUSLIEFERUNG (43-45)" style="rounded=1;whiteSpace=wrap;html=1;fillColor:#2980B9;fontColor=white;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="2470" width="470" height="35" as="geometry"/>
         </mxCell>
-        <mxCell id="s43" value="43. Kunde kommt zum Termin" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph7" target="s43"/>
+        <mxCell id="s43" value="43. Kunde kommt zum Termin" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2515" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s44" value="44. Fahrzeugübergabe &amp; Einweisung" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s43" target="s44"/>
+        <mxCell id="s44" value="44. Fahrzeugübergabe &amp; Einweisung" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2565" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="s45" value="45. Schlüssel- &amp; Dokumentenübergabe" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="a51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s44" target="s45"/>
+        <mxCell id="s45" value="45. Schlüssel- &amp; Dokumentenübergabe" style="rounded=0;whiteSpace=wrap;html=1;fillColor:#AED6F1;" vertex="1" parent="1">
           <mxGeometry x="350" y="2615" width="470" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="end" value="ENDE: Kunde fährt mit Tesla nach Hause" style="ellipse;whiteSpace=wrap;html=1;fillColor:#90EE90;strokeWidth=3;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s45" target="end"/>
+        <mxCell id="end" value="ENDE: Kunde fährt nach Hause" style="ellipse;whiteSpace=wrap;html=1;fillColor:#90EE90;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="350" y="2675" width="470" height="60" as="geometry"/>
         </mxCell>
-        <!-- ARROWS -->
-        <mxCell id="a0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="start" target="ph1"/>
-        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph1" target="s1"/>
-        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s1" target="s2"/>
-        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s2" target="s3"/>
-        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s3" target="s4"/>
-        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s4" target="s5"/>
-        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s5" target="s6"/>
-        <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s6" target="s7"/>
-        <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s7" target="s8"/>
-        <mxCell id="a9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s8" target="ph2"/>
-        <mxCell id="a10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph2" target="s9"/>
-        <mxCell id="a11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s9" target="s10"/>
-        <mxCell id="a12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s10" target="s11"/>
-        <mxCell id="a13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s11" target="s12"/>
-        <mxCell id="a14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s12" target="s13"/>
-        <mxCell id="a15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s13" target="s14"/>
-        <mxCell id="a16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s14" target="ph3"/>
-        <mxCell id="a17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph3" target="s15"/>
-        <mxCell id="a18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s15" target="s16"/>
-        <mxCell id="a19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s16" target="s17"/>
-        <mxCell id="a20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s17" target="s18"/>
-        <mxCell id="a21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s18" target="s19"/>
-        <mxCell id="a22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s19" target="s20"/>
-        <mxCell id="a23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s20" target="s21"/>
-        <mxCell id="a24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s21" target="s22"/>
-        <mxCell id="a25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s22" target="ph4"/>
-        <mxCell id="a26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph4" target="s23"/>
-        <mxCell id="a27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s23" target="s24"/>
-        <mxCell id="a28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s24" target="s25"/>
-        <mxCell id="a29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s25" target="s26"/>
-        <mxCell id="a30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s26" target="s27"/>
-        <mxCell id="a31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="```xml
-1;" edge="1" parent="1" source="s27" target="s28"/>
-        <mxCell id="a32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s28" target="s29"/>
-        <mxCell id="a33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s29" target="ph5"/>
-        <mxCell id="a34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph5" target="s30"/>
-        <mxCell id="a35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s30" target="s31"/>
-        <mxCell id="a36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s31" target="s32"/>
-        <mxCell id="a37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s32" target="s33"/>
-        <mxCell id="a38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s33" target="s34"/>
-        <mxCell id="a39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s34" target="s35"/>
-        <mxCell id="a40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s35" target="s36"/>
-        <mxCell id="a41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s36" target="s37"/>
-        <mxCell id="a42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s37" target="ph6"/>
-        <mxCell id="a43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph6" target="s38"/>
-        <mxCell id="a44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s38" target="s39"/>
-        <mxCell id="a45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s39" target="s40"/>
-        <mxCell id="a46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s40" target="s41"/>
-        <mxCell id="a47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s41" target="s42"/>
-        <mxCell id="a48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s42" target="ph7"/>
-        <mxCell id="a49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="ph7" target="s43"/>
-        <mxCell id="a50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s43" target="s44"/>
-        <mxCell id="a51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;" edge="1" parent="1" source="s44" target="s45"/>
-        <mxCell id="a52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="s45" target="end"/>
       </root>
     </mxGraphModel>
   </diagram>
